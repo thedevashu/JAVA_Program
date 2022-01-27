@@ -1,0 +1,13 @@
+package student;
+
+public class Main {
+	public static void main(String[] args) {
+		Student s =new Student();
+		
+		s.setStudentName("Ashutosh");
+		s.setRollNo(017);
+		s.setExperianced(true);
+	}
+	
+	
+}

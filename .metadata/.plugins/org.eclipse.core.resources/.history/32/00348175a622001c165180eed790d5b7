@@ -1,0 +1,24 @@
+
+public class StackClass {
+	private int stk[];
+	private int top=-1;
+	public StackClass(int size) {
+		stk = new int[size];
+		
+	}
+	
+	
+	public void push(int num) {
+		
+			top++;
+			stk[top]=num;
+			System.out.println(stk[0]);
+		
+	}
+	
+	public int pop() {
+		top--;
+		System.out.println(stk[top]);
+		return stk[top];
+	}
+}

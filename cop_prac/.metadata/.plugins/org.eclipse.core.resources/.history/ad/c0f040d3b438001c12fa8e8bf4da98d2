@@ -1,0 +1,26 @@
+package employee;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Employee emp[] =new Employee[3];
+		Scanner scn =new Scanner(System.in);
+		for(int i=0;i<emp.length;i++) {
+			String street=scn.next();
+			String build =scn.next();
+			int pin =scn.nextInt();
+			int id=scn.nextInt();
+			String nm=scn.next();
+			float sal=scn.nextFloat();
+		Address ad =new Address(street,build,pin);
+		emp[i]=new Employee(id,nm,sal,ad);
+		}
+		System.out.println(emp[0]);
+		System.out.println(emp[1]);
+		System.out.println(emp[2]);
+		
+	}
+
+}

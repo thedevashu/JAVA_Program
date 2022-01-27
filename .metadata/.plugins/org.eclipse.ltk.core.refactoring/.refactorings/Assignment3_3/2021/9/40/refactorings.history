@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;ArrayFun.arr&apos; in &apos;ArrayFun&apos;&#x0D;&#x0A;- Original project: &apos;Assignment3_3&apos;&#x0D;&#x0A;- Original element: &apos;ArrayFun.arr&apos;&#x0D;&#x0A;- Getter method name: &apos;getArr&apos;&#x0D;&#x0A;- Setter method name: &apos;setArr&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;arr&apos;" flags="589830" getter="getArr" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;{ArrayFun.java[ArrayFun^arr" insertion="-1" setter="setArr" stamp="1633022339385" version="1.0" visibility="1"/>
+</session>

@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		// TODO Auto-generated method stub
+		String name;
+		int id;
+		int salary;
+		Scanner scn =new Scanner(System.in);
+		int noOfEmployee;
+		Employee[] e =new Employee[5];
+		System.out.println("Enter no. of Employee you want: ");
+		noOfEmployee =scn.nextInt();
+		e =new Employee[noOfEmployee];
+		
+		for (int i = 0; i < noOfEmployee; i++) {
+		
+			System.out.println("Enter name of employee:");
+			name =scn.next();
+			
+			System.out.println("Enter ID of employee:");
+			id =scn.nextInt();
+			
+			System.out.print("Enter Salary of employee:");
+			salary = scn.nextInt();
+			
+			 e[i] =new Employee(name,id,salary);
+			
+			
+			
+		}
+		
+		for (int i = 0; i < noOfEmployee; i++) {
+			System.out.println("-------------xxxxxxx---------------");
+			
+			System.out.println(e[i]);
+		}
+
+	}
+
+}

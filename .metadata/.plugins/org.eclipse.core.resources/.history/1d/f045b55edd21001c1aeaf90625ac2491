@@ -1,0 +1,12 @@
+package assignment2_3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(Math.isPrime(23));
+		System.out.println(Math.getFactoria(100));
+		System.out.println(Math.getSquare(5));
+	}
+
+}

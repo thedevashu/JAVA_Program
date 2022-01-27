@@ -1,0 +1,26 @@
+package uperrcase;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scn =new Scanner(System.in);
+		System.out.println("Enter your string :");
+		String s =scn.nextLine();
+		
+		char crr[] = s.toCharArray();
+		for (int i = 0; i < crr.length; i++) {
+			if(crr[i] == '\0') {
+				continue;
+			}
+			crr[i] +=32; 
+		}
+		
+		for (int i = 0; i < crr.length; i++) {
+			System.out.print(crr[i]);
+		}
+	}
+
+}

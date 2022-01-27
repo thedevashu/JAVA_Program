@@ -1,0 +1,14 @@
+package employee;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Employee emp[] =new Employee[10];
+		Address ad =new Address("street","building",123);
+		emp[1]=new Employee(123,"asf",1234);
+		System.out.println(emp[1]);
+		
+
+	}
+
+}

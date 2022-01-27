@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayFun a= new ArrayFun();
+		int arr[] = {1,5,2,4,3,452,2345,6534,2345,65,243};
+		a.setArr(arr);
+		a.sortArr();
+	}
+
+}

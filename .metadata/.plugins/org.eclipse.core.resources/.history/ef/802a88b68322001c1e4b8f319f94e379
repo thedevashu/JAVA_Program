@@ -1,0 +1,37 @@
+/*In the class that you wrote yesterday for Array functionalities add below functions to it.
+1. sort the array
+2. left_rotate
+3. right_rotate
+4 . insert_arr
+5. delete_array*/
+public class ArrayFun {
+	private int arr[];
+
+	public int[] getArr() {
+		return arr;
+	}
+
+	public void setArr(int arr[]) {
+		this.arr = arr;
+	}
+
+	public void sortArr() {
+		int i,j,temp;
+		for(i =0;i<arr.length;i++) {
+			int k=0;
+			for(j=0;j<arr.length;j++) {
+				
+				
+				if(arr[i]<arr[k]) {
+					temp =arr[i];
+					arr[i]=arr[k];
+					arr[k] =temp;
+					break;
+				}
+				k++;
+			}
+		}
+		
+	}
+
+}

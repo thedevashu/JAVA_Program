@@ -1,0 +1,27 @@
+
+public class StackClass {
+	private int stk[];
+	private int top=-1;
+	public StackClass(int size) {
+		stk = new int[size];
+		
+	}
+	
+	
+	public void push(int num) {
+		
+			top++;
+			stk[top]=num;
+			System.out.println(stk[top]);
+		
+	}
+	
+	public int pop() {
+		top--;
+		for (int i = 0; i < stk.length; i++) {
+			
+			System.out.print(stk[i]+" ,");
+		}
+		return stk[top];
+	}
+}
